@@ -1,0 +1,113 @@
+body {
+    font-family: 'Koulen', cursive;
+    ;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+header {
+    background-color: orangered;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 50px;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: grey;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: darkgrey (0, 0, 0, 0.3);
+}
+
+nav ul li a.activo {
+    background-color: darkgrey;
+}
+
+footer {
+    background-color: white;
+    clear: both;
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+/*fin inicio*/
+
+/*inicio Quienes Somos*/
+
+.marca{
+    border: 1px;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+    padding: 15%;
+    box-sizing: border-box;
+}
+
+.marca img{
+border-radius: 90%;
+}
+/*fin Quienes Somos*/
+/*inicio de servicios*/
+
+.servicio{
+border:1px solid;
+border-radius: 30px;
+padding: 20%;
+margin: 16px 0;
+display: flex;
+gap: 35px;
+align-items: center;
+}
+ 
+.servicio .info h4{
+color: blue;
+font-weight: 600;
+font-style: normal;
+border-bottom: 1px solid black;
+padding-bottom: 10px;
+}
+
+.servicio .info p{
+font-size: 13px;
+}
+
+.servicio img{
+border-radius: 15px;
+display: block;
+max-width: 225px;
+}
