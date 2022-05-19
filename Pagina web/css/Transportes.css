@@ -68,20 +68,16 @@ footer {
 /*fin inicio*/
 
 /*inicio Quienes Somos*/
-
 .marca{
     border: 1px;
     border-radius: 5px;
-    width: 20%;
-    text-align: center;
-    padding: 15%;
+    width: 90%;
+    text-align: left;
+    padding: 20%;
     box-sizing: border-box;
 }
-
-.marca img{
-border-radius: 90%;
-}
 /*fin Quienes Somos*/
+
 /*inicio de servicios*/
 
 .servicio{
@@ -111,3 +107,55 @@ border-radius: 15px;
 display: block;
 max-width: 225px;
 }
+
+/*inicio galeria*/
+
+.galeria{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+}
+
+.galeria img {
+    width: 20%;
+    border: 1px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 5%;
+    }
+
+/*fin galeria*/
+
+/*inicio contacto*/
+
+.formulario p label{
+display: flex;
+align-items: center;
+}
+
+.formulario p:nth-child(4){
+align-items: flex-start;
+}
+
+.formulario textarea {
+resize: none;
+height: 150px;
+}
+
+.formulario input[type="submit"] {
+background: white;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+color: white;
+font-size: 16px;
+padding: 6px 20px;
+width: auto;
+position: relative;
+left: 5rem;
+cursor: pointer;
+}
+
+.formulario input[type="submit"] :hover{
+background-color: azure;
+}
+/*fin contacto*/
